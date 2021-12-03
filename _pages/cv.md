@@ -11,21 +11,17 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Electronic Engineering, [The Chinese University of Hong Kong](https://cuhk.edu.hk/), Shatin, NT, Hong Kong SAR, 2013-2017
+* Ph.D in Electrical and Computer Engineering, [University of California San Diego](https://www.ucsd.edu/), La Jolla, CA, 2017-now (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* June-December 2021: Research Assistant at [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/)
+  * Worked with [Rameswar Panda](https://rpand002.github.io/), [Yoon Kim](https://people.csail.mit.edu/yoonkim/), [Richard Chen](https://mitibmwatsonailab.mit.edu/people/richard-chen/), and [Rogerio Feris](https://www.rogerioferis.org/)
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* September 2018--now: Graduate Student Researcher at [UC San Diego](https://www.ucsd.edu/)
+  * Conducted computer vision and machine learning research at [Statistical Visual Computing Lab](http://www.svcl.ucsd.edu/)
+  * Advisor: [Nuno Vasconcelos](http://www.svcl.ucsd.edu/~nuno/)
   
 Skills
 ======
