@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yi's Personal Page'"
+title: "Yi's Personal Page"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
