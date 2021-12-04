@@ -1,6 +1,6 @@
 pub_date	title	venue	excerpt	citation	url_slug	paper_url
-2018-09	RESOUND: Towards Action Recognition without Representation Bias	European Conference on Computer Vision (ECCV)			resound_eccv18	/files/publications/resound.pdf
-2019-06	REPAIR: Removing Representation Bias by Dataset Resampling	Conference on Computer Vision and Pattern Recognition (CVPR)			repair_cvpr19	/files/publications/repair.pdf
-2020-06	Background Data Resampling for Outlier-Aware Classification	Conference on Computer Vision and Pattern Recognition (CVPR)			ood-resample_cvpr20	/files/publications/ood-resample.pdf
-2020-12	Learning Representations from Audio-Visual Spatial Alignment	Conference on Neural Information Processing Systems (NeurIPS)			avsa_neurips20	/files/publications/avsa.pdf
-2021-10	BEV-Net: Assessing Social Distancing Compliance by Joint People Localization and Geometric Reasoning	International Conference on Computer Vision (ICCV)			bevnet_iccv21	/files/publications/bevnet.pdf
+2018-09-01	RESOUND: Towards Action Recognition without Representation Bias	European Conference on Computer Vision (ECCV)			resound_eccv18	/files/publications/resound.pdf
+2019-06-01	REPAIR: Removing Representation Bias by Dataset Resampling	Conference on Computer Vision and Pattern Recognition (CVPR)			repair_cvpr19	/files/publications/repair.pdf
+2020-06-01	Background Data Resampling for Outlier-Aware Classification	Conference on Computer Vision and Pattern Recognition (CVPR)			ood-resample_cvpr20	/files/publications/ood-resample.pdf
+2020-12-01	Learning Representations from Audio-Visual Spatial Alignment	Conference on Neural Information Processing Systems (NeurIPS)			avsa_neurips20	/files/publications/avsa.pdf
+2021-10-01	BEV-Net: Assessing Social Distancing Compliance by Joint People Localization and Geometric Reasoning	International Conference on Computer Vision (ICCV)			bevnet_iccv21	/files/publications/bevnet.pdf
