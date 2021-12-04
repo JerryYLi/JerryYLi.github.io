@@ -86,7 +86,8 @@ for row, item in publications.iterrows():
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
     
-    md += "\ncitation: '" + html_escape(item.citation) + "'"
+    if len(str(item.citation)) > 5:
+        md += "\ncitation: '" + html_escape(item.citation) + "'"
     
     md += "\n---"
     
@@ -98,7 +99,8 @@ for row, item in publications.iterrows():
     if len(str(item.excerpt)) > 5:
         md += "\n" + html_escape(item.excerpt) + "\n"
         
-    md += "\nRecommended citation: " + item.citation
+    if len(str(item.citation)) > 5:
+        md += "\nRecommended citation: " + item.citation
     
     md_filename = os.path.basename(md_filename)
        

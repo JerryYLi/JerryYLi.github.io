@@ -1,4 +1,6 @@
 pub_date	title	venue	excerpt	citation	url_slug	paper_url
-2009-10-01	Paper Title Number 1	Journal 1	This paper is about the number 1. The number 2 is left for future work.	Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).	paper-title-number-1	http://academicpages.github.io/files/paper1.pdf
-2010-10-01	Paper Title Number 2	Journal 1	This paper is about the number 2. The number 3 is left for future work.	Your Name, You. (2010). "Paper Title Number 2." <i>Journal 1</i>. 1(2).	paper-title-number-2	http://academicpages.github.io/files/paper2.pdf
-2015-10-01	Paper Title Number 3	Journal 1	This paper is about the number 3. The number 4 is left for future work.	Your Name, You. (2015). "Paper Title Number 3." <i>Journal 1</i>. 1(3).	paper-title-number-3	http://academicpages.github.io/files/paper3.pdf
+2018-09	RESOUND: Towards Action Recognition without Representation Bias	European Conference on Computer Vision (ECCV)			resound_eccv18	/files/publications/resound.pdf
+2019-06	REPAIR: Removing Representation Bias by Dataset Resampling	Conference on Computer Vision and Pattern Recognition (CVPR)			repair_cvpr19	/files/publications/repair.pdf
+2020-06	Background Data Resampling for Outlier-Aware Classification	Conference on Computer Vision and Pattern Recognition (CVPR)			ood-resample_cvpr20	/files/publications/ood-resample.pdf
+2020-12	Learning Representations from Audio-Visual Spatial Alignment	Conference on Neural Information Processing Systems (NeurIPS)			avsa_neurips20	/files/publications/avsa.pdf
+2021-10	BEV-Net: Assessing Social Distancing Compliance by Joint People Localization and Geometric Reasoning	International Conference on Computer Vision (ICCV)			bevnet_iccv21	/files/publications/bevnet.pdf

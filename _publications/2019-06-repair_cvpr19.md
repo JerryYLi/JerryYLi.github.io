@@ -1,0 +1,10 @@
+---
+title: "REPAIR: Removing Representation Bias by Dataset Resampling"
+collection: publications
+permalink: /publication/2019-06-repair_cvpr19
+date: 2019-06
+venue: 'Conference on Computer Vision and Pattern Recognition (CVPR)'
+paperurl: '/files/publications/repair.pdf'
+---
+
+<a href='/files/publications/repair.pdf'>Download paper here</a>
