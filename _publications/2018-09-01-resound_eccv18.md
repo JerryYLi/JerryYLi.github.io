@@ -7,4 +7,4 @@ venue: 'European Conference on Computer Vision (ECCV)'
 paperurl: '/files/publications/resound.pdf'
 ---
 
-<a href='/files/publications/resound.pdf'>Download paper here</a>
+<a href='/files/publications/resound.pdf'>Paper PDF</a>

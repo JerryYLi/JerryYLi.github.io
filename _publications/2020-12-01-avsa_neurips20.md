@@ -7,4 +7,4 @@ venue: 'Conference on Neural Information Processing Systems (NeurIPS)'
 paperurl: '/files/publications/avsa.pdf'
 ---
 
-<a href='/files/publications/avsa.pdf'>Download paper here</a>
+<a href='/files/publications/avsa.pdf'>Paper PDF</a>

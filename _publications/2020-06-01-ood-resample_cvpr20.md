@@ -7,4 +7,4 @@ venue: 'Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: '/files/publications/ood-resample.pdf'
 ---
 
-<a href='/files/publications/ood-resample.pdf'>Download paper here</a>
+<a href='/files/publications/ood-resample.pdf'>Paper PDF</a>
