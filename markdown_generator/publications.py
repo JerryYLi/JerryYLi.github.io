@@ -27,8 +27,8 @@ for row, item in publications.iterrows():
     
     md += """\npermalink: /publication/""" + html_filename
     
-    if len(str(item.excerpt)) > 5:
-        md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
+    # if len(str(item.excerpt)) > 5:
+    #     md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
     
     md += "\nyear: " + str(item.pub_year) 
     
@@ -48,13 +48,16 @@ for row, item in publications.iterrows():
     ## Markdown description for individual page
     
     if len(str(item.paper_url)) > 5:
-        md += "\n\n<a href='" + item.paper_url + "'>Paper PDF</a>\n" 
-        
-    if len(str(item.excerpt)) > 5:
-        md += "\n" + html_escape(item.excerpt) + "\n"
+        md += "\n\n<a href='" + item.paper_url + "'>Paper</a>\n" 
+    
+    if len(str(item.bibtex)) > 5:
+        md += "\n\n<a href='" + item.bibtex + "'>BibTeX</a>\n" 
         
     if len(str(item.authors)) > 5:
         md += "\nAuthors: " + item.authors
+        
+    if len(str(item.excerpt)) > 5:
+        md += "\n" + html_escape(item.excerpt) + "\n"
     
     md_filename = os.path.basename(md_filename)
        
