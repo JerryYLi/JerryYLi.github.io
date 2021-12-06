@@ -54,10 +54,10 @@ for row, item in publications.iterrows():
         md += "\n\n<a href='" + item.bibtex + "'>BibTeX</a>\n" 
         
     if len(str(item.authors)) > 5:
-        md += "\nAuthors: " + item.authors
+        md += "\nAuthors: " + item.authors + "\n"
         
     if len(str(item.excerpt)) > 5:
-        md += "\n" + html_escape(item.excerpt) + "\n"
+        md += "\nAbstract: " + html_escape(item.excerpt) + "\n"
     
     md_filename = os.path.basename(md_filename)
        
