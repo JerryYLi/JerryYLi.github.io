@@ -64,8 +64,11 @@ for row, item in publications.iterrows():
     if len(str(item.authors)) > 5:
         md += "\n" + html_escape(md_escape(item.authors)) + "\n"
         
+    if len(str(item.venue)) > 5:
+        md += "\nPublished in *" + html_escape(md_escape(item.venue)) + "*, " + str(item.pub_year) + "\n"
+        
     if len(str(item.excerpt)) > 5:
-        md += "\nAbstract: " + html_escape(md_escape(item.excerpt)) + "\n"
+        md += "\n**Abstract**: " + html_escape(md_escape(item.excerpt)) + "\n"
     
     md_filename = os.path.basename(md_filename)
        
