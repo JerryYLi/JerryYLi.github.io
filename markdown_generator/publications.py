@@ -10,9 +10,17 @@ html_escape_table = {
     "'": "&apos;"
     }
 
+md_escape_table = {
+    "*": "\*"
+}
+
 def html_escape(text):
     """Produce entities within text."""
     return "".join(html_escape_table.get(c,c) for c in text)
+
+def md_escape(text):
+    """Produce entities within text."""
+    return "".join(md_escape_table.get(c,c) for c in text)
 
 for row, item in publications.iterrows():
     
@@ -54,10 +62,10 @@ for row, item in publications.iterrows():
         md += "\n\n<a href='" + item.bibtex + "'>BibTeX</a>\n" 
         
     if len(str(item.authors)) > 5:
-        md += "\nAuthors: " + item.authors + "\n"
+        md += "\n" + html_escape(md_escape(item.authors)) + "\n"
         
     if len(str(item.excerpt)) > 5:
-        md += "\nAbstract: " + html_escape(item.excerpt) + "\n"
+        md += "\nAbstract: " + html_escape(md_escape(item.excerpt)) + "\n"
     
     md_filename = os.path.basename(md_filename)
        
