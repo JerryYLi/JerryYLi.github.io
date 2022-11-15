@@ -10,4 +10,4 @@ redirect_from:
 
 Hi there!
 
-This will be the future homepage of Yi Li, a PhD student at University of California, San Diego.
+This is the homepage of Yi Li, a PhD student at University of California, San Diego.

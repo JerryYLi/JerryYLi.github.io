@@ -9,14 +9,17 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+# Education
 ======
+* Ph.D in Electrical and Computer Engineering, [University of California San Diego](https://www.ucsd.edu/), La Jolla, CA, 2017--now
 * B.S. in Electronic Engineering, [The Chinese University of Hong Kong](https://cuhk.edu.hk/), Shatin, NT, Hong Kong SAR, 2013--2017
-* Ph.D in Electrical and Computer Engineering, [University of California San Diego](https://www.ucsd.edu/), La Jolla, CA, 2017--now (expected)
 
-Work experience
+# Work experience
 ======
-* June--December 2021: Research Assistant at [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/)
+* June 2022--now: Research Intern at [Intel Labs](https://www.intel.com/content/www/us/en/research/overview.html)
+  * Worked with [Subarna Tripathi](https://subarnatripathi.github.io) and [Kyle Min](https://sites.google.com/view/kylemin)
+  
+* June--December 2021: Research Intern at [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/)
   * Worked with [Rameswar Panda](https://rpand002.github.io/), [Yoon Kim](https://people.csail.mit.edu/yoonkim/), [Richard Chen](https://mitibmwatsonailab.mit.edu/people/richard-chen/), and [Rogerio Feris](https://www.rogerioferis.org/)
 
 * September 2018--now: Graduate Student Researcher at [UC San Diego](https://www.ucsd.edu/)
@@ -32,7 +35,7 @@ Work experience
   * Sub-skill 2.3
 * Skill 3 -->
 
-Publications
+# Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
