@@ -16,7 +16,7 @@ redirect_from:
 
 ## Work experience
 <!-- ====== -->
-* June 2022--now: Research Intern at [Intel Labs](https://www.intel.com/content/www/us/en/research/overview.html)
+* June 2022--now: Research Intern at [Intel Labs](http://www.intel.com/intellabs/)
   * Worked with [Subarna Tripathi](https://subarnatripathi.github.io) and [Kyle Min](https://sites.google.com/view/kylemin)
   
 * June--December 2021: Research Intern at [MIT-IBM Watson AI Lab](https://mitibmwatsonailab.mit.edu/)
