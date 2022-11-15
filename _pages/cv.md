@@ -9,12 +9,12 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+## Education
 <!-- ====== -->
 * Ph.D in Electrical and Computer Engineering, [University of California San Diego](https://www.ucsd.edu/), La Jolla, CA, 2017--now
 * B.S. in Electronic Engineering, [The Chinese University of Hong Kong](https://cuhk.edu.hk/), Shatin, NT, Hong Kong SAR, 2013--2017
 
-Work experience
+## Work experience
 <!-- ====== -->
 * June 2022--now: Research Intern at [Intel Labs](https://www.intel.com/content/www/us/en/research/overview.html)
   * Worked with [Subarna Tripathi](https://subarnatripathi.github.io) and [Kyle Min](https://sites.google.com/view/kylemin)
@@ -35,7 +35,7 @@ Work experience
   * Sub-skill 2.3
 * Skill 3 -->
 
-Publications
+## Publications
 <!-- ====== -->
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
