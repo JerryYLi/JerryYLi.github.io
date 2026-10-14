@@ -188,7 +188,7 @@
     "venue": "CVPR",
     "topic": "Reliable & fair AI",
     "selected": true,
-    "summary": "",
+    "summary": "Resampling training data to reduce representation bias and improve generalization beyond dataset shortcuts.",
     "links": {
       "Paper": "files/publications/repair.pdf",
       "Code": "https://github.com/JerryYLi/Dataset-REPAIR"
@@ -201,7 +201,7 @@
     "venue": "ECCV",
     "topic": "Reliable & fair AI",
     "selected": true,
-    "summary": "",
+    "summary": "Measuring and reducing static visual biases in action recognition, and introducing the motion-focused Diving48 dataset.",
     "links": {
       "Paper": "files/publications/resound.pdf",
       "Dataset": "https://www.svcl.ucsd.edu/projects/resound/dataset.html"

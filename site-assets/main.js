@@ -39,3 +39,25 @@ for (const disclosure of document.querySelectorAll('.paper-tldr')) {
   disclosure.addEventListener('keydown', event => { if (event.key === 'Escape') { pinned = false; disclosure.open = false; event.preventDefault(); } });
   disclosure.addEventListener('focusout', event => { if (!pinned && !disclosure.contains(event.relatedTarget)) disclosure.open = false; });
 }
+
+// One control reveals professional background, then life beyond research.
+const bioToggle = document.querySelector('.bio-toggle');
+const bioBackground = document.querySelector('#bio-background');
+const bioPersonal = document.querySelector('#bio-personal');
+if (bioToggle && bioBackground && bioPersonal) {
+  let bioStage = 0;
+  const labels = ['More about me', 'A little more…', 'Less about me'];
+  function updateBio() {
+    bioBackground.hidden = bioStage === 0;
+    bioPersonal.hidden = bioStage < 2;
+    bioToggle.textContent = labels[bioStage];
+    bioToggle.setAttribute('aria-expanded', String(bioStage > 0));
+    bioToggle.dataset.stage = String(bioStage);
+  }
+  updateBio();
+  bioToggle.hidden = false;
+  bioToggle.addEventListener('click', () => {
+    bioStage = (bioStage + 1) % 3;
+    updateBio();
+  });
+}

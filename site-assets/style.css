@@ -208,3 +208,12 @@ h3 a:hover { color: var(--accent); text-decoration: none; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+.bio-toggle { display: inline-flex; align-items: center; gap: 8px; border: 0; padding: 6px 0; background: transparent; color: var(--accent); font-size: 15px; }
+.bio-toggle::after { content: ''; width: 6px; height: 6px; border-right: 1px solid currentColor; border-bottom: 1px solid currentColor; transform: rotate(45deg); margin: 0 5px 3px; transition: transform .22s ease; }
+.bio-toggle[data-stage='2']::after { transform: rotate(225deg); margin-bottom: -3px; }
+.bio-panel p { margin: 12px 0 0; }
+.personal-life { border-left: 1px solid var(--line); padding-left: 16px; margin-top: 18px; }
+.personal-life p { font-size: 16px; }
+@media (prefers-reduced-motion: no-preference) { .bio-panel:not([hidden]) { animation: arrive .25s ease both; } }
+@media (prefers-reduced-motion: reduce) { .bio-toggle::after { transition: none; } }
