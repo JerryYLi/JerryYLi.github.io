@@ -1,18 +1,5 @@
 [
   {
-    "title": "ForeSea: AI Forensic Search with Multi-modal Queries for Video Surveillance",
-    "authors": "Hyojin Park*, Yi Li*, Janghoon Cho, Sungha Choi, Jungsoo Lee, Taotao Jing, Shuai Zhang, Munawar Hayat, Dashan Gao, Ning Bi, Fatih Porikli",
-    "year": 2026,
-    "venue": "ECCV",
-    "topic": "Video & multimodal",
-    "selected": true,
-    "summary": "Multimodal search and temporal reasoning across long surveillance videos.",
-    "links": {
-      "Paper": "https://arxiv.org/abs/2603.22872",
-      "Dataset": "https://huggingface.co/datasets/qualcomm/ForeSeaQA"
-    }
-  },
-  {
     "title": "Conditional Multi-Event Temporal Grounding in Long-Form Video",
     "authors": "Yuanhao Zou, Arthad Kulkarni, Lucas Tonanez, Lincoln Spencer, Guangyu Sun, Tianxingjian Ding, Andong Deng, Yi Li, Shuangjun Liu, Yuan Li, Dashan Gao, Ning Bi, Taotao Jing, Shuai Zhang, Chen Chen",
     "year": 2026,
@@ -23,6 +10,19 @@
     "links": {
       "Paper": "https://arxiv.org/abs/2606.15320",
       "Project": "https://alexco1d.github.io/comet/"
+    }
+  },
+  {
+    "title": "ForeSea: AI Forensic Search with Multi-modal Queries for Video Surveillance",
+    "authors": "Hyojin Park*, Yi Li*, Janghoon Cho, Sungha Choi, Jungsoo Lee, Taotao Jing, Shuai Zhang, Munawar Hayat, Dashan Gao, Ning Bi, Fatih Porikli",
+    "year": 2026,
+    "venue": "ECCV",
+    "topic": "Video & multimodal",
+    "selected": true,
+    "summary": "Multimodal search and temporal reasoning across long surveillance videos.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2603.22872",
+      "Dataset": "https://huggingface.co/datasets/qualcomm/ForeSeaQA"
     }
   },
   {
