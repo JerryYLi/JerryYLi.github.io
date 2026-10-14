@@ -1,0 +1,210 @@
+[
+  {
+    "title": "ForeSea: AI Forensic Search with Multi-modal Queries for Video Surveillance",
+    "authors": "Hyojin Park*, Yi Li*, Janghoon Cho, Sungha Choi, Jungsoo Lee, Taotao Jing, Shuai Zhang, Munawar Hayat, Dashan Gao, Ning Bi, Fatih Porikli",
+    "year": 2026,
+    "venue": "ECCV",
+    "topic": "Video & multimodal",
+    "selected": true,
+    "summary": "Multimodal search and temporal reasoning across long surveillance videos.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2603.22872",
+      "Dataset": "https://huggingface.co/datasets/qualcomm/ForeSeaQA"
+    }
+  },
+  {
+    "title": "Conditional Multi-Event Temporal Grounding in Long-Form Video",
+    "authors": "Yuanhao Zou, Arthad Kulkarni, Lucas Tonanez, Lincoln Spencer, Guangyu Sun, Tianxingjian Ding, Andong Deng, Yi Li, Shuangjun Liu, Yuan Li, Dashan Gao, Ning Bi, Taotao Jing, Shuai Zhang, Chen Chen",
+    "year": 2026,
+    "venue": "NeurIPS \u2014 Evaluations & Datasets",
+    "topic": "Video & multimodal",
+    "selected": true,
+    "summary": "Finding every event that satisfies compositional conditions in long-form video.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2606.15320",
+      "Project": "https://alexco1d.github.io/comet/"
+    }
+  },
+  {
+    "title": "Latent Bridge: Feature Delta Prediction for Efficient Dual-System Vision-Language-Action Model Inference",
+    "authors": "Yudong Liu, Yuan Li, Zijia Tang, Yuxi Zheng, Yueqian Lin, Qinsi Wang, Yi Li, Shuangjun Liu, Shuai Zhang, Taotao Jing, Dashan Gao, Ning Bi, Jingwei Sun, Yiran Chen, Hai Li",
+    "year": 2026,
+    "venue": "Preprint",
+    "topic": "Efficient learning",
+    "selected": false,
+    "summary": "Predicting changes in visual-language features to reduce the cost of VLA inference.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2605.02739"
+    }
+  },
+  {
+    "title": "Leveraging Data to Say No: Memory Augmented Plug-and-Play Selective Prediction",
+    "authors": "Aditya Sarkar, Yi Li, Jiacheng Cheng, Shlok Mishra, Nuno Vasconcelos",
+    "year": 2026,
+    "venue": "ICLR",
+    "topic": "Reliable & fair AI",
+    "selected": false,
+    "summary": "Helping foundation models abstain from uncertain predictions with retrieval-based memory.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2601.22570",
+      "Code": "https://github.com/kingston-aditya/MA-PaPSP"
+    }
+  },
+  {
+    "title": "EgoPrivacy: What Your First-Person Camera Says About You?",
+    "authors": "Yijiang Li, Genpei Zhang, Jiacheng Cheng, Yi Li, Xiaojun Shan, Dashan Gao, Jiancheng Lyu, Yuan Li, Ning Bi, Nuno Vasconcelos",
+    "year": 2025,
+    "venue": "ICML",
+    "topic": "Reliable & fair AI",
+    "selected": true,
+    "summary": "Measuring the privacy risks that egocentric video poses to the camera wearer.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2506.12258",
+      "Code": "https://github.com/williamium3000/ego-privacy"
+    }
+  },
+  {
+    "title": "Fairness and Bias Mitigation in Computer Vision: A Survey",
+    "authors": "Sepehr Dehdashtian, Ruozhen He, Yi Li, Guha Balakrishnan, Nuno Vasconcelos, Vicente Ordonez, Vishnu Naresh Boddeti",
+    "year": 2024,
+    "venue": "Preprint",
+    "topic": "Reliable & fair AI",
+    "selected": false,
+    "summary": "",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2408.02464"
+    }
+  },
+  {
+    "title": "Holistic Bias Mitigation in Computer Vision and Beyond",
+    "authors": "Yi Li",
+    "year": 2024,
+    "venue": "PhD dissertation",
+    "topic": "Reliable & fair AI",
+    "selected": false,
+    "summary": "",
+    "links": {
+      "Paper": "https://escholarship.org/uc/item/4h78p6rq"
+    }
+  },
+  {
+    "title": "Debias your VLM with Counterfactuals: A Unified Approach",
+    "authors": "Yi Li, Nuno Vasconcelos",
+    "year": 2024,
+    "venue": "Manuscript",
+    "topic": "Reliable & fair AI",
+    "selected": false,
+    "summary": "",
+    "links": {
+      "Paper": "https://openreview.net/forum?id=xx05gm7oQw"
+    }
+  },
+  {
+    "title": "SViTT: Temporal Learning of Sparse Video-Text Transformers",
+    "authors": "Yi Li, Kyle Min, Subarna Tripathi, Nuno Vasconcelos",
+    "year": 2023,
+    "venue": "CVPR",
+    "topic": "Efficient learning",
+    "selected": true,
+    "summary": "Sparse video-text transformers for efficient multi-frame reasoning.",
+    "links": {
+      "Paper": "https://arxiv.org/abs/2304.08809",
+      "Project": "https://www.svcl.ucsd.edu/projects/svitt/",
+      "Code": "https://github.com/JerryYLi/svitt"
+    }
+  },
+  {
+    "title": "VALHALLA: Visual Hallucination for Machine Translation",
+    "authors": "Yi Li, Rameswar Panda, Yoon Kim, Chun-Fu Chen, Rogerio Feris, David Cox, Nuno Vasconcelos",
+    "year": 2022,
+    "venue": "CVPR",
+    "topic": "Video & multimodal",
+    "selected": true,
+    "summary": "Using hallucinated visual representations to improve text-only machine translation.",
+    "links": {
+      "Paper": "files/publications/valhalla.pdf",
+      "Project": "https://www.svcl.ucsd.edu/projects/valhalla/",
+      "Code": "https://github.com/JerryYLi/valhalla-nmt"
+    }
+  },
+  {
+    "title": "Improving Video Model Transfer with Dynamic Representation Learning",
+    "authors": "Yi Li, Nuno Vasconcelos",
+    "year": 2022,
+    "venue": "CVPR",
+    "topic": "Video & multimodal",
+    "selected": false,
+    "summary": "",
+    "links": {
+      "Paper": "files/publications/drl.pdf",
+      "Project": "https://www.svcl.ucsd.edu/projects/drl",
+      "Code": "https://github.com/JerryYLi/video-drl"
+    }
+  },
+  {
+    "title": "BEV-Net: Assessing Social Distancing Compliance by Joint People Localization and Geometric Reasoning",
+    "authors": "Zhirui Dai, Yuepeng Jiang, Yi Li, Bo Liu, Antoni B. Chan, Nuno Vasconcelos",
+    "year": 2021,
+    "venue": "ICCV",
+    "topic": "Video & multimodal",
+    "selected": false,
+    "summary": "",
+    "links": {
+      "Paper": "files/publications/bevnet.pdf",
+      "Code": "https://github.com/daizhirui/BEVNet"
+    }
+  },
+  {
+    "title": "Learning Representations from Audio-Visual Spatial Alignment",
+    "authors": "Pedro Morgado*, Yi Li*, Nuno Vasconcelos",
+    "year": 2020,
+    "venue": "NeurIPS",
+    "topic": "Video & multimodal",
+    "selected": true,
+    "summary": "Learning from spatial correspondence between 360\u00b0 video and audio.",
+    "links": {
+      "Paper": "files/publications/avsa.pdf",
+      "Project": "https://pedro-morgado.github.io/AVSpatialAlignment/",
+      "Code": "https://github.com/pedro-morgado/AVSpatialAlignment"
+    }
+  },
+  {
+    "title": "Background Data Resampling for Outlier-Aware Classification",
+    "authors": "Yi Li, Nuno Vasconcelos",
+    "year": 2020,
+    "venue": "CVPR",
+    "topic": "Reliable & fair AI",
+    "selected": false,
+    "summary": "",
+    "links": {
+      "Paper": "files/publications/ood-resample.pdf",
+      "Code": "https://github.com/JerryYLi/bg-resample-ood"
+    }
+  },
+  {
+    "title": "REPAIR: Removing Representation Bias by Dataset Resampling",
+    "authors": "Yi Li, Nuno Vasconcelos",
+    "year": 2019,
+    "venue": "CVPR",
+    "topic": "Reliable & fair AI",
+    "selected": true,
+    "summary": "",
+    "links": {
+      "Paper": "files/publications/repair.pdf",
+      "Code": "https://github.com/JerryYLi/Dataset-REPAIR"
+    }
+  },
+  {
+    "title": "RESOUND: Towards Action Recognition without Representation Bias",
+    "authors": "Yingwei Li, Yi Li, Nuno Vasconcelos",
+    "year": 2018,
+    "venue": "ECCV",
+    "topic": "Reliable & fair AI",
+    "selected": true,
+    "summary": "",
+    "links": {
+      "Paper": "files/publications/resound.pdf",
+      "Dataset": "https://www.svcl.ucsd.edu/projects/resound/dataset.html"
+    }
+  }
+]
